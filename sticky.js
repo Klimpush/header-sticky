@@ -1,8 +1,6 @@
 const doc = document;
 const w = window;
 
-//  header sticky
-
 let scrollPos = w.scrollY;
 let header = doc.querySelector('.js-header');
 let headerOffset = header.offsetHeight;
